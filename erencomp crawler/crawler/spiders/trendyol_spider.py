@@ -1,7 +1,6 @@
 import scrapy
 class trendyol_spider(scrapy.Spider):
     name = "trendyol_spider"
-    page_count = 0
     product_count = 1
     start_urls = [
          "https://www.trendyol.com/sr?q=laptop&qt=laptop&st=laptop&os=1"

@@ -1,7 +1,6 @@
 import scrapy
 class hepsiburada_spider(scrapy.Spider):
     name = "hepsiburada_spider"
-    page_count = 0
     product_count = 1
     start_urls = [
          "https://www.hepsiburada.com/laptop-notebook-dizustu-bilgisayarlar-c-98?ib=t&siralama=yorumsayisi"
