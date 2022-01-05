@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>motorr</title>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body oncontextmenu='return false' class='snippet-body'>
+    <div class="container-fluid px-1 px-sm-4 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-lg-9 col-xl-8">
+                <div class="card border-0">
+                    <div class="card-header bg-dark">
+                        <h4 class="text-white">ErenComp</h4> <small class="text-white">
+                            Filtrelerinizi seçiniz.</small>
+                    </div>
+                    <div class="card-body px-3 px-md-5">
+                        <!--fiyat kartı-->
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h6>Fiyata Göre Filtre (₺)</h6>
+                            </div>
+                            <div class="card-body">
+
+                                <div class="row px-4 mt-3">
+                                    <div class="col-md-6 pl-0 pr-0 pr-md-2 mb-2">
+                                        <label for="minprice">Minimum Fiyat:</label>
+                                        <input type="number" id="minprice" name="minprice" min="01" placeholder="Min">
+                                    </div>
+                                    <div class="col-md-6 pl-0 pl-md-2 pr-0">
+                                        <label for="minprice">Maximum Fiyat:</label>
+                                        <input type="number" id="minprice" name="minprice" min="01" placeholder="Max"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--puan kartı-->
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h6>Puana Göre Filtre</h6>
+                            </div>
+                            <div class="card-body">
+
+                                <div class="row px-4 justify-content-center">
+                                    <div class="col-6 col-md-3">
+                                        <div class="box row py-2 justify-content-around">
+                                            <div class="fa fa-star active"></div>
+                                            <div class="fa fa-star"></div>
+                                            <div class="fa fa-star"></div>
+                                            <div class="fa fa-star"></div>
+                                            <div class="fa fa-star"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--değerlendirme ve yorum sayıları kartı-->
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h6>Diğer Filtreler</h6>
+                            </div>
+                            <div class="card-body">
+
+                                <div class="col-md-6 pl-0 pl-md-2 pr-0">
+                                    <label for="yorum">Yorum Sayısı</label>
+                                    <input type="range" id="yorum" name="yorum" min="0" max="5000">
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-footer bg-white row mx-0 mb-2 justify-content-between">
+                        <form method="get" action="main.html">
+                            <button class="btn btn-success ml-auto">
+                                <span class="fa fa-filter"></span>
+                                &nbsp;&nbsp;Apply Filter</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src=''></script>
+    <script type='text/Javascript' src='script.js'>
+
+</script>
+</body>
+
+</html>
